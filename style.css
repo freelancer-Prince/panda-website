@@ -1,0 +1,14 @@
+.margin{
+    margin-top: 70px;
+}
+.bg-color{
+    background-color: black;
+}
+.color{
+    color:#ffffff;
+    background-color: rgba(0, 0, 0, 0.589);
+    width: 440px;
+    height: 100px;
+    margin-left: 160px;
+    border-radius: 7px;
+}
