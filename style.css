@@ -20,6 +20,9 @@
     .cat1, .cat2, .cat3{
       margin-top: 20px;
     }
+    .cont h3{
+       font-size: 20px;
+    }
 }
 .categories{
     margin-top: 40px;
