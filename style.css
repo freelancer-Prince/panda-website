@@ -1,5 +1,6 @@
 .margin{
-    margin-top: 70px;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 .bg-color{
     background-color: black;
@@ -11,4 +12,40 @@
     height: 100px;
     margin-left: 160px;
     border-radius: 7px;
+}
+@media(max-width:700px){
+    .slide-hight{
+        height: 300px;
+    }
+    .cat1, .cat2, .cat3{
+      margin-top: 20px;
+    }
+}
+.categories{
+    margin-top: 40px;
+}
+.categories h1{
+    color: #fbfbfb;
+}
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    border-radius: 8px;
+}
+.cat1{
+    background-image:linear-gradient(57deg, orange,orangered)
+}
+.cat2{
+    background-image:linear-gradient(57deg, #00ff22,#d4f832)
+}
+.cat3{
+    background-image:linear-gradient(57deg, rgb(28, 49, 241),#32b0f8)
+}
+.cat{
+    width: 200px;
+    border-radius: 8px;
+    margin-left: -20px;
+}
+.categories-to{
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
